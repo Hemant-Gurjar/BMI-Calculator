@@ -1,12 +1,13 @@
-# 🚨 Don't change the code below 👇
+#Asking user to insert data
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+#Calculation of BMI
 
 bmi = weight / (height * height)
-final_bmi = round(bmi)
+final_bmi = round(bmi,2)
+
+#Result Printing
 
 if final_bmi <= 18:
     print(f"Your BMI is {final_bmi}, you are underweight.")
